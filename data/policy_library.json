@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "sla_delay",
+    "title": "SLA and Queue Management",
+    "text": "Cases approaching service-level limits should be prioritised using queue ageing, bottleneck ownership and hand-off timestamps. Repeated delays should trigger process redesign rather than manual escalation alone."
+  },
+  {
+    "topic": "rework",
+    "title": "Right-First-Time Quality",
+    "text": "High rework rates indicate upstream quality or requirements problems. Teams should identify the earliest repeatable defect source, standardise checks and measure first-pass yield after corrective action."
+  },
+  {
+    "topic": "handoffs",
+    "title": "Process Handoffs",
+    "text": "Excessive handoffs increase cycle time and failure risk. Simplify ownership, remove duplicate approvals and automate low-risk transitions where control requirements allow."
+  },
+  {
+    "topic": "automation",
+    "title": "Automation Governance",
+    "text": "Automation candidates should be repetitive, rules-based and measurable. Controls must include exception handling, auditability, ownership, rollback and post-deployment monitoring."
+  },
+  {
+    "topic": "data_quality",
+    "title": "Data Quality Controls",
+    "text": "Missing, inconsistent or delayed data should be monitored at source. Critical fields require validation rules, ownership, lineage and exception reporting before downstream analytics are relied upon."
+  },
+  {
+    "topic": "incident",
+    "title": "Operational Incident Management",
+    "text": "Recurring incidents require root-cause analysis, clear remediation owners and verification that the fix reduces recurrence. Severity, customer impact and control risk should guide prioritisation."
+  }
+]
